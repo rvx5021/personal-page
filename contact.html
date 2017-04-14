@@ -8,15 +8,11 @@
     <body>
         <div id="header"><h1>Contact Us!</h1></div>
         <div id="wrapper">
-            <div id="inputs">
-<form>
-<input type='text' name='info' value='Is this your first time visiting this website?'>
-<input type='radio'>Yes
-<input type='radio'>No
-</form>    
+            <div id="inputs">   
                 <form name="input" action="#" method="post">
             	    First name: <input type="text" name="firstname" value="first name"><br/>
             	    Last name: <input type="text" name="lastname" value="last name"><br/>
+                    Birthday: <input type="date" name="bday"><br/>
             	    Phone number: <input type="text" name="Phone number" value="Phone number"><br/>
             	    E-mail: <input type="email" name="email" value="e-mail address"><br/><br/>                        
 </form>
@@ -28,5 +24,8 @@
             </div>
         </div>
     </body>
-<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+  <form id="submite">  
+  <input type="submit" value="Submit">
+  <input type="reset">
+  </form>    
 </html>
