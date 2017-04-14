@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<div class="container">  
-  <form id="contact" action="" method="post">
-    <h3>Contact Me!</h3>
-    <h4>Contact me for further improvement</h4>
-    <fieldset>
-      <input placeholder="Your First name" type="text" tabindex="1" required autofocus>
-      <input placeholder="Your Last name" type="text" tabindex="2" required autofocus>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="4" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Web Site (optional)" type="url" tabindex="5" required>
-    </fieldset>
-    <fieldset>
-      <textarea placeholder="Leave a message...." tabindex="6" required></textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-  </form>
-</div>
+<html>
+    <head>
+        <title>Web Form</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="header"><h1>Contact Us!</h1></div>
+        <div id="wrapper">
+            <div id="inputs">
+                <form name="input" action="#" method="post">
+            	    First name: <input type="text" name="firstname" value="first name"><br/>
+            	    Last name: <input type="text" name="lastname" value="last name"><br/>
+            	    Phone number: <input type="text" name="Phone number" value="Phone number"><br/>
+            	    E-mail: <input type="email" name="email" value="e-mail address"><br/><br/>                        
+</form>
+            </div>
+            <div>
+                <form id="options">
+                    Leave a Message: <br/><textarea name="msg"></textarea><br/>                   
+                </form>
+            </div>
+        </div>
+    </body>
+<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+</html>
