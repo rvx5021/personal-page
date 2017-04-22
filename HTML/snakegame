@@ -1,5 +1,17 @@
 
 <link rel="stylesheet" href="/CSS/snakegame1.css">
 <script src="/JAVASCRIPT/snakegame2.js"></script>
-<h>Simple Snake Game</h>
-<canvas id="stage" height="400" width="520"></canvas>
+
+<div id="container">
+    
+<h1>Guessing Game</h1>
+
+    <div id="message_txt"></div>
+    <form id="userInput" name="userInput" method="post">
+        <input id="input_txt" name="limitedtextfield" type="text" onKeyDown="limitText(this.form.limitedtextfield,3);" onKeyUp="limitText(this.form.limitedtextfield,3);" maxlength="3">
+        <br />
+        <button id="guess_btn" type="button" onclick="guessNumber()">?</button>
+        <br />
+        <button id="playAgain_btn" type="button" onclick="initGame()">&#x21BB;</button>
+    </form>
+</div>
