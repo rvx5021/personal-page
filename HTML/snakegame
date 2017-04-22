@@ -1,2 +1,5 @@
+
+<link rel="stylesheet" href="/CSS/snakegame1.css">
+<script src="/JAVASCRIPT/snakegame2.js"></script>
 <h>Simple Snake Game</h>
 <canvas id="stage" height="400" width="520"></canvas>
