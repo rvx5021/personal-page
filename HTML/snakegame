@@ -1,10 +1,11 @@
 
-<link rel="stylesheet" href="/CSS/snakegame1.css">
-<script src="/JAVASCRIPT/snakegame2.js"></script>
 
 <div id="container">
     
 <h1>Guessing Game</h1>
+
+<link rel="stylesheet" href="/CSS/snakegame1.css">
+<script src="/JAVASCRIPT/snakegame2.js"></script>
 
     <div id="message_txt"></div>
     <form id="userInput" name="userInput" method="post">
